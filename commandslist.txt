@@ -145,3 +145,6 @@ crontab -e
 ls
 ls -a
 pwd
+sudo yum install python3 -y
+sudo yum install python3-pip -y
+pip3 install psutil
