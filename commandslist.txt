@@ -1,0 +1,143 @@
+sudo su -
+exit
+ls
+pwd
+cd .ssh
+ls
+cd authorized_keys
+vi authorized_keys
+exit
+sudo su -
+ls
+pwd
+ll
+cd .ssh
+ls
+cat authorized_keys
+vi authorized_keys
+sudo su -girish
+sudo su - girish
+sudo yum update
+sudo yum install java-17-openjdk
+sudo yum install wget -y
+Wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727550295_21c3dd42007dba48d92347f3152f4075
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727550295_21c3dd42007dba48d92347f3152f4075
+ls
+mv 'oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727550295_21c3dd42007dba48d92347f3152f4075' oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages
+/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+cd Packages 
+cd Packages
+rm -rf Packages
+ls
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sql+
+sqlplus
+ls
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+lsnrctl status
+lsnrctl start
+vi /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config
+sudo su -
+sudo /etc/init.d/oracle-xe-21c configure
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+ls
+lsnrctl status
+ls
+sudo /etc/init.d/oracle-xe-21c configure
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+env | grep ORACLE
+sudo service oracle-xe-21c start
+sqlplus
+sudo service oracle-xe-21c start
+ls
+exit
+ls
+sqlplus
+ls
+cd /opt/oracle/product/21c/dbhomeXE/bin
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+imp classicmodels/classicmodels FILE=/home/girish/classicmodels.dmp log=/home/girish/import.log FULL=Y
+sqlplus
+ls
+cd ..
+sudo su -
+exit
+ls
+sudo su -
+sudo service oracle-xe-21c start
+sudo su - oracle
+lsnrctl status
+sudo lsnrctl start
+listener.ora
+cd $ORACLE_HOME/network/admin
+pwd
+ls
+listener.ora
+lsnrctl status
+cd ..
+sudo su -
+sqlplus
+ls
+sqlplus
+ls
+imp classicmodels/classicmodels123 FULL=y File=./classicmodels.dmp
+sudo lsnrctl start
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$ORACLE_HOME/bin:$PATH
+ls
+sudo lsnrctl start
+lsnrctl start
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+sudo lsnrctl start
+source /home/ec2-user/.bash_profile
+lsnrctl start
+chmod 777  /opt/oracle/product/21c/dbhomeXE/network/log
+sudo chmod 777  /opt/oracle/product/21c/dbhomeXE/network/log
+lsnrctl start
+exit
+ls
+history
+history 10
+ls
+ls -l | grep ".sql"
+exit
+history
+exit
+ls
+vi /home/ec2-user/payments_1.csv
+exit
+cd ssh
+cd .ssh
+ls
+vi authorized_keys
+exit
+sudo vi /etc/s-nail.rc
+sudo chmod 777 /etc/s-nail.rc
+sudo vi /etc/s-nail.rc
+sudo yum install
+sudo yum install -y s-nail
+sudo yum install -y sysstat
+ls
+sudo su - 
