@@ -141,3 +141,7 @@ sudo yum install -y s-nail
 sudo yum install -y sysstat
 ls
 sudo su - 
+crontab -e
+ls
+ls -a
+pwd
