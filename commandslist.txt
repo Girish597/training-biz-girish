@@ -200,3 +200,6 @@ find ./ -name "*.txt" | xargs rm
 find ./ -name "*.txt"
 find ./ -name "*.txt" | xargs rm
 history
+ls
+cd training-biz-girish
+ls
