@@ -186,3 +186,6 @@ ps -ef | grep ec2-user --sort="%c"
 ps -ef | grep ec2-user --sort=-%c
 ps -ef | grep ec2-user | sort -o
 ps -ef | grep ec2-user
+ps -ef | grep ec2-user -eu uid,pid,c
+ps -ef | grep ec2-user | sort k4
+ps -ef | grep ec2-user | sort -k4
