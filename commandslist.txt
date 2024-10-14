@@ -196,3 +196,6 @@ ls
 find . -type f -name ".txt"
 find . -type f -name ".csv"
 find ./ -name "*.txt"
+find ./ -name "*.txt" | xargs rm
+find ./ -name "*.txt"
+find ./ -name "*.txt" | xargs rm
