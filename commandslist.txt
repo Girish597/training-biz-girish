@@ -169,3 +169,5 @@ chmod +x push_history.sh
 sudo bash
 find . -type f -name ".csv" -size 
 find . -type f -name ".csv" -size +500K
+find . -type f -name ".csv" -size +0.5M
+find . -type f -name ".csv" -size +500 | wc -l
