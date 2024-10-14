@@ -199,3 +199,4 @@ find ./ -name "*.txt"
 find ./ -name "*.txt" | xargs rm
 find ./ -name "*.txt"
 find ./ -name "*.txt" | xargs rm
+history
