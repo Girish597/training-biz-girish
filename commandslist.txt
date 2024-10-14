@@ -167,3 +167,5 @@ vi push_history.sh
 source push_history.sh 
 chmod +x push_history.sh
 sudo bash
+find . -type f -name ".csv" -size 
+find . -type f -name ".csv" -size +500K
