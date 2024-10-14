@@ -179,3 +179,10 @@ nestat
 netstat -tuln
 ps -ef
 ps -ef | grep ec2-user
+ps -ef
+ps
+ps -ef
+ps -ef | grep ec2-user --sort="%c"
+ps -ef | grep ec2-user --sort=-%c
+ps -ef | grep ec2-user | sort -o
+ps -ef | grep ec2-user
