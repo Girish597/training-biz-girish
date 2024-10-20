@@ -204,3 +204,9 @@ ls
 cd training-biz-girish
 ls
 vi push_history.sh
+sudo su -
+exit
+ls
+sudo yum install sendmail -y
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
